@@ -5,6 +5,7 @@ import org.skillbox.dto.BookingResponse;
 import org.skillbox.dto.PageResponse;
 import org.skillbox.exception.NotFoundException;
 import lombok.RequiredArgsConstructor;
+import org.skillbox.kafka.KafkaProducerService;
 import org.skillbox.mapper.BookingMapper;
 import org.skillbox.model.Booking;
 import org.skillbox.model.Room;

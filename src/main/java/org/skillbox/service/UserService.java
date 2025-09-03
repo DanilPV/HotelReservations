@@ -4,6 +4,7 @@ import org.skillbox.dto.UserRequest;
 import org.skillbox.dto.UserResponse;
 import org.skillbox.exception.NotFoundException;
 import lombok.RequiredArgsConstructor;
+import org.skillbox.kafka.KafkaProducerService;
 import org.skillbox.mapper.UserMapper;
 import org.skillbox.model.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
